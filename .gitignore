@@ -1,0 +1,96 @@
+# ==============================================================================
+# Git Ignore Configuration: Siamese-rPPG AI-Generated Video Detection System
+# ==============================================================================
+
+# Python Bytecode & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS-Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+output.txt
+crash_report.txt
+snapshots/
+models/*_backup.pth
+
+# Assistant/Internal session notes and showcase scripts
+SESSION_SYNC.md
+showcase_20_clips_demo.py
+
+# Internal Thesis Drafts & Cache Dumps
+docs/*_cache.csv
+docs/chapter1_introduction.md
+docs/balanced_40_evaluation_report.csv
+docs/biological_classifier_evaluation.csv
+
+# Internal scratch experiments & local dataset trainers
+src/cache_large_dataset.py
+src/train_siamese_contrastive.py
+experiments/auto_tune_classifier.py
+experiments/iterative_benchmark_tune.py
+experiments/stress_benchmark_50.py
+experiments/verify_*.py
+experiments/run_visual_experiment.py
+experiments/experiment_results.png
+
+# Datasets & Heavy Training Caches (> 100 MB GitHub Limit)
+scratch/
+rPPG-Toolbox/
+*.pt
+*.pth.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+Data-train/
+Celeb-DF-v2/
+Modern-AI-Deepfakes/
+
+# Trained model weights: only track pure inference models (< 10 MB)
+models/*
+!models/pretrained_siamese_rppg.pth
+!models/bi_arterial_deepfake_net.pth

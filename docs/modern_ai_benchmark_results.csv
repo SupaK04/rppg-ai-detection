@@ -1,0 +1,15 @@
+Video File,Model / Generator,Category,Ground Truth,Prediction,Liveness Score (%),Heart Rate (BPM),Spatial Corr (r),Periodicity Peak,SNR (dB),Spectral Entropy,Correct Detection
+EMO_avatar_main.mp4,EMO (Alibaba),Diffusion Avatar,Deepfake / AI,REAL HUMAN,53.2,166.3,0.835,0.108,-3.6,0.89,✗
+EMO_song_melody.mp4,EMO (Alibaba),Diffusion Avatar,Deepfake / AI,REAL HUMAN,74.0,94.9,0.483,0.264,-2.6,0.88,✗
+EMO_talk_sora.mp4,EMO (Alibaba),Diffusion Avatar,Deepfake / AI,REAL HUMAN,59.9,154.7,0.367,0.233,-1.6,0.9,✗
+SadTalker_AOC_000.mp4,SadTalker (OpenTalker),3DMM Talking Head,Deepfake / AI,REAL HUMAN,72.2,111.3,0.316,0.269,0.2,0.83,✗
+SadTalker_KatieHill_000.mp4,SadTalker (OpenTalker),3DMM Talking Head,Deepfake / AI,AI-GENERATED / DEEPFAKE,34.2,85.0,-0.112,0.17,-3.4,0.91,✓
+Modern_FaceSwap_1_fake.mp4,Commercial FaceSwap AI,AI FaceSwap,Deepfake / AI,REAL HUMAN,47.7,112.5,-0.008,0.25,-0.8,0.92,✗
+Modern_FaceSwap_2_fake.mp4,Commercial FaceSwap AI,AI FaceSwap,Deepfake / AI,REAL HUMAN,58.6,151.2,0.588,0.189,-3.5,0.93,✗
+Modern_FaceSwap_3_fake.mp4,Commercial FaceSwap AI,AI FaceSwap,Deepfake / AI,REAL HUMAN,69.5,143.4,0.347,0.385,-1.5,0.89,✗
+LivePortrait_driving_d0.mp4,Real Human Driving Subject,Real Human Video,Real,REAL HUMAN,61.7,105.5,0.272,0.311,-3.9,0.95,✓
+LivePortrait_driving_d6.mp4,Real Human Driving Subject,Real Human Video,Real,REAL HUMAN,57.1,140.6,0.082,0.498,-0.7,0.87,✓
+LivePortrait_driving_d14.mp4,Real Human Driving Subject,Real Human Video,Real,REAL HUMAN,63.4,147.7,0.285,0.38,-2.5,0.91,✓
+Modern_FaceSwap_1_real.mp4,Real Camera Video,Real Human Video,Real,AI-GENERATED / DEEPFAKE,44.1,121.9,0.096,0.151,-1.1,0.92,✗
+Modern_FaceSwap_2_real.mp4,Real Camera Video,Real Human Video,Real,REAL HUMAN,64.2,126.5,0.293,0.303,-0.6,0.89,✓
+Modern_FaceSwap_3_real.mp4,Real Camera Video,Real Human Video,Real,AI-GENERATED / DEEPFAKE,37.9,105.9,0.048,0.201,-5.0,0.95,✗
